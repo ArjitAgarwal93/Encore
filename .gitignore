@@ -10,7 +10,7 @@ CMS/.env
 CMS/.env.*
 
 # Database
-db.sqlite3
+CMS/db.sqlite3
 *.sqlite3
 
 # Secret configuration files
