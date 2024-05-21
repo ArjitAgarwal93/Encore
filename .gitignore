@@ -1,0 +1,37 @@
+ECHO is on.
+# Django specific files
+*.log
+*.pot
+*.pyc
+__pycache__/
+
+# Environment variables
+CMS/.env
+CMS/.env.*
+
+# Database
+db.sqlite3
+*.sqlite3
+
+# Secret configuration files
+config/settings/local.py
+config/settings/.env
+
+# Static files
+/staticfiles/
+/media/
+
+# Virtual environment
+venv/
+.env/
+env/
+
+# IDEs
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
